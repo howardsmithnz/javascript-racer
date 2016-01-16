@@ -1,3 +1,25 @@
+.racer_table td {
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+}
+
+#player1_strip .active {
+  background-color: orange;
+}
+
+#player2_strip .active {
+  background-color: blue;
+}
+
+body {
+  background-color: #333;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*
 body,
 div,
 ul,
@@ -126,8 +148,9 @@ a {
 .dark-gray {
   background-color: #4a4a4a;
 }
-
+*/
 /* TODO: Replace with image later */
+/*
 #header {
   background-color: #484848;
 }
@@ -167,9 +190,9 @@ span {
 #lets-connect {
   text-align: center;
 }
-
+*/
 /* Media queries to handle various device widths */
-
+/*
 @media only screen and (max-width: 1024px) {
   #lets-connect {
     margin-top: 5%;
@@ -212,3 +235,4 @@ span {
     display: block;
   }
 }
+*/
