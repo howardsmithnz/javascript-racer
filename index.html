@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Racer Game</title>
-
   <link href="css/style.css" rel="stylesheet">
   <script src="js/jQuery.js"></script>
-  <!-- <script src="js/helper.js"></script> -->
 </head>
 
 <body>
   <div id="main">
-    <h1>JS Racer!</h1>
-    <!--
-    <div id="header" class="center-content clear-fix">
-      <ul id="topContacts" class="flex-box"></ul>
-    </div>
-    <div style="clear: both;"></div>
-    -->
+    <h1>JS RACER!</h1>
+    <h2>Can you take the excitement?</h2>
+    <h3>Player x - push x</h3>
+    <h3>Player o - push o</h3>
     <hr>
     <table class="racer_table">
       <tr id="player1_strip">
@@ -67,7 +60,7 @@
         <td> </td>
         <td> </td>
         <td> </td>
-        <td> </td>
+        <td id="finish_line_x"> </td>
       </tr>
       <tr id="player2_strip">
         <td class="active">O</td>
@@ -114,33 +107,11 @@
         <td> </td>
         <td> </td>
         <td> </td>
-        <td> </td>
+        <td id="finish_line_o"> </td>
       </tr>
     </table>
-
     <hr>
-    <button id="goButton">Push me</button>
-    <button id="otherGoButton">No! Push me</button>
-    <!--
-    <div id="workExperience" class="gray">
-      <h2>Blah</h2>
-    </div>
-    <div id="projects">
-      <h2>Blah blah</h2>
-    </div>
-    <div id="education" class="gray">
-      <h2>Blah blah blah</h2>
-    </div>
-    <div id="mapDiv">
-      <h2>And so on...</h2>
-    </div>
-    <div id="lets-connect" class="dark-gray">
-      <h2 class="orange center-text">Let's Connect</h2>
-        <ul id="footerContacts" class="flex-box">
-      </ul>
-    </div>
-  </div>
-  -->
+    <button id="resetButton">Reset</button>
   <script src="js/racer.js"></script>
 </body>
 </html>
